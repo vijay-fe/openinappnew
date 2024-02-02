@@ -1,0 +1,61 @@
+.upload_table_container {
+    font-weight: normal;
+    width: 80%;
+    text-align: unset;
+    margin-top: 30px;
+
+    .title {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .uploads_table {
+        background-color: rgb(236, 236, 236);
+        padding: 20px;
+        border-radius: 10px;
+        overflow-x: scroll;
+
+        table {
+            width: 100%;
+
+            tr {
+                // background-color: rgb(226, 225, 222);
+                padding: 10px;
+                border-bottom: 10px solid rgb(236, 236, 236);
+                height: 60px;
+
+                td:first-child {
+                    border-radius: 5px 0 0 5px;
+
+                }
+
+                td:last-child {
+                    border-radius: 0px 5px 5px 0px;
+                }
+
+                td {
+                    background-color: whitesmoke;
+                    text-align: center;
+                }
+            }
+        }
+
+        .custom_ddl {
+            width: 140px;
+            height: 36px;
+            border-radius: 5px;
+        }
+
+        .selected_tags_chip {
+            background-color: #605BFF;
+            padding: 6px;
+            color: white;
+            border-radius: 5px;
+            margin-inline-start: 5px;
+            display: flex;
+            width: fit-content;
+            height: 38px;
+
+        }
+    }
+}

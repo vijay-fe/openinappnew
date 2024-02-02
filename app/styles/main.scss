@@ -1,0 +1,10 @@
+@import "./components/_base.scss";
+@import "./components/signin";
+@import "./components/dashboardLayout";
+@import "./components/sidebar";
+@import "./components/dropzone";
+@import "./components/uploads";
+
+* {
+    box-sizing: border-box;
+}
